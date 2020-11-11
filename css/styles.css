@@ -1,13 +1,22 @@
 .colored-section{
     background-color: #D1BFFF;
-    padding: 7% 15%;
+    padding: 5% 20%;
 }
 
 .white-section {
     background-color: white;
-    padding: 7% 15%;
+    padding: 5% 20%;
+    text-align: center;
 }
 
-#team-tech-carousel {
-    margin: 0 5%;
+#logo {
+    height: 400px;
+}
+
+#projects-section {
+    text-align: center;
+}
+
+.project-card {
+    padding: 3% 2%;
 }
