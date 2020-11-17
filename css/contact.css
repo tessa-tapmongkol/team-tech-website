@@ -1,10 +1,23 @@
 .contact {
     background-color: white;
-    padding: 20px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+.white-section{
+    padding: 4% 20%;
+}
+
+.colored-section{
+    background-color: #D1BFFF;
+    padding: 5% 20%;
+    text-align: center;
+}
+
+.share-icon{
+    margin: 20px 10px;
+}
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -20,10 +33,6 @@ input[type=text], select, textarea {
 #subject {
     margin-top: 1%;
     margin-bottom: 1%;
-}
-
-#Contacttitle {
-    margin-top: 1%;
 }
 
 #Contactform {
