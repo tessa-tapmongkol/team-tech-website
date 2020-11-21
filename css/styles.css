@@ -4,9 +4,21 @@
     text-align: center;
 }
 
+.colored {
+    background-color: #D1BFFF;
+    padding: 5%;
+    text-align: center;
+}
+
 .white-section {
     background-color: white;
     padding: 5% 20%;
+    text-align: center;
+}
+
+.about-us-colored-section {
+    background-color: #D1BFFF;
+    padding: 5% 12%;
     text-align: center;
 }
 
