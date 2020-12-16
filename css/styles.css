@@ -2,12 +2,12 @@ body {
     padding-top: 56px;
 }
 
-a {
+footer a {
     color: black;
     margin: 0 10px;
 }
 
-a:hover {
+footer a:hover {
     color: rgb(59, 59, 59);
     text-decoration: none;
 }
