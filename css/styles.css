@@ -2,6 +2,16 @@ body {
     padding-top: 56px;
 }
 
+a {
+    color: black;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
 .colored-section{
     background-color: #D1BFFF;
     padding: 5% 20%;
