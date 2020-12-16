@@ -2,6 +2,16 @@ body {
     padding-top: 56px;
 }
 
+footer a {
+    color: black;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
 .contact {
     background-color: white;
     width: 80%;
