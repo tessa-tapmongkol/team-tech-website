@@ -26,7 +26,7 @@ footer a:hover {
 
 .about-us-colored {
     background-color: #D1BFFF;
-    padding: 5% 15%;
+    padding: 5% 10%;
     text-align: left;
 }
 
@@ -35,12 +35,16 @@ footer a:hover {
 }
 
 #feature-logo {
-    max-width: 80%;
+    max-width: 250px;
     height: auto;
 }
 
 #projects-section {
     text-align: center;
+}
+
+.current-project {
+    background-color: white;
 }
 
 .project-card {
@@ -57,4 +61,32 @@ footer a:hover {
 }
 .share-icon{
     margin: 20px 10px;
+}
+
+@media only screen and (max-width: 950px) {
+    .colored-section {
+       padding: 5% 8%;
+    }
+
+    .white-section {
+        padding: 5% 8%;
+    }
+
+    .about-us-colored {
+        padding: 5% 10%;
+    }
+ }
+
+@media only screen and (max-width: 600px) {
+    .colored-section {
+       padding: 5% 8%;
+    }
+
+    .white-section {
+        padding: 5% 8%;
+    }
+
+    .about-us-colored {
+        padding: 5% 10%;
+    }
 }

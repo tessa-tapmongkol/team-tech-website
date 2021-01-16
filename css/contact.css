@@ -48,3 +48,23 @@ input[type=text],input[type=email], select, textarea {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
+@media only screen and (max-width: 950px) {
+    .colored-section {
+       padding: 5% 8%;
+    }
+
+    .white-section {
+        padding: 5% 8%;
+    }
+ }
+
+@media only screen and (max-width: 600px) {
+    .colored-section {
+       padding: 5% 5%;
+    }
+
+    .white-section {
+        padding: 5% 5%;
+    }
+}
