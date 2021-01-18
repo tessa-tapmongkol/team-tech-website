@@ -27,7 +27,7 @@ $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $to \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
-header('Location: contact-us.html');
+header('Location: index.html');
 
 
 // Function to validate against any email injection attempts
