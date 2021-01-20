@@ -22,10 +22,6 @@ $email_subject = "New Inquary submission";
 $email_body = "You have received a new message from the user $name.\n".
     "Here is the message:\n $message \n".
     
-<<<<<<< HEAD
-$to = "cpteamtech@gmail.com";//<== update the email address
-=======
->>>>>>> 091d22de3d3531fef802adc484969e2fa072c3f9
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $to \r\n";
 //Send the email!
