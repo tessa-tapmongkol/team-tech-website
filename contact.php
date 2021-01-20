@@ -17,17 +17,22 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = '$visitor_email';//<== update the email address
+$to = "psomiset@calpoly.edu";//<== update the email address
 $email_subject = "New Inquary submission";
-$email_body = "You have received a new message from the user $fname.\n".
-    "Here is the message:\n $message".
+$email_body = "You have received a new message from the user $name.\n".
+    "Here is the message:\n $message \n".
     
+<<<<<<< HEAD
 $to = "cpteamtech@gmail.com";//<== update the email address
+=======
+>>>>>>> 091d22de3d3531fef802adc484969e2fa072c3f9
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $to \r\n";
 //Send the email!
-mail($to,$email_subject,$email_body,$headers);
-header('Location: thank-you.html');
+if(mail($to, $email_subject, $email_body, $headers))
+  header('Location: thank-you.html');
+else
+  header('Location: failed-email.html');
 
 
 // Function to validate against any email injection attempts
