@@ -6,7 +6,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 //Validate first
-if(empty($name)||empty($visitor_email)) 
+if(empty($first_name)||empty($last_name)||empty($visitor_email)) 
 {
     echo "Name and email are mandatory!";
     exit;
