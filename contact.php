@@ -1,7 +1,7 @@
 <?php
 
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
+$first_name = $_POST['fname'];
+$last_name = $_POST['lname'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
@@ -20,15 +20,13 @@ if(IsInjected($visitor_email))
 
 $to = "psomiset@calpoly.edu";//<== update the email address
 $email_subject = "New Inquary submission";
-$email_body = "You have received a new message from ".$fname. " " .$lname. ".\r\n";
+$email_body = "You have received a new message from ".$first_name." ".$last_name. ".\r\n";
 $email_body = "Here is the user email: ".$visitor_email. "\r\n";
 $email_body = "Here is the message:\r\n".$message. "\r\n";
 
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $to \r\n";
 
 //Send the email!
-if(mail($to, $email_subject, $email_body, $headers)) {
+if(mail($to, $email_subject, $email_body)) {
   header('Location: thank-you.html');
 
 }
