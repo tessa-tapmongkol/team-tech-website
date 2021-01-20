@@ -23,16 +23,8 @@ $email_subject = "New Inquary submission";
 $email_body = "You have received a new message from ".$fname. " " .$lname. ".\r\n";
 $email_body = "Here is the user email: ".$visitor_email. "\r\n";
 $email_body = "Here is the message:\r\n".$message. "\r\n";
-    
-<<<<<<< HEAD
-$headers = "From: <$email_from> \r\n";
-=======
-<<<<<<< HEAD
-$to = "cpteamtech@gmail.com";//<== update the email address
-=======
->>>>>>> 091d22de3d3531fef802adc484969e2fa072c3f9
+
 $headers = "From: $email_from \r\n";
->>>>>>> f4fa8e13ec3316dac67705fff043618d07bd5d56
 $headers .= "Reply-To: $to \r\n";
 
 //Send the email!
