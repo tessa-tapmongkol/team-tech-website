@@ -22,7 +22,7 @@ $email_subject = "New Inquary submission";
 $email_body = "You have received a new message from the user $fname.\n".
     "Here is the message:\n $message".
     
-$to = "psomiset@calpoly.edu";//<== update the email address
+$to = "cpteamtech@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $to \r\n";
 //Send the email!
