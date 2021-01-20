@@ -21,8 +21,8 @@ if(IsInjected($visitor_email))
 $to = "psomiset@calpoly.edu";//<== update the email address
 $email_subject = "New Inquary submission";
 $email_body = "You have received a new message from ".$first_name." ".$last_name. ".\r\n";
-$email_body = "Here is the user email: ".$visitor_email. "\r\n";
-$email_body = "Here is the message:\r\n".$message. "\r\n";
+$email_body += "Here is the user email: ".$visitor_email. "\r\n";
+$email_body += "Here is the message:\r\n".$message. "\r\n";
 
 
 //Send the email!
