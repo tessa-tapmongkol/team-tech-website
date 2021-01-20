@@ -28,10 +28,13 @@ $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $to \r\n";
 
 //Send the email!
-if(mail($to, $email_subject, $email_body, $headers))
+if(mail($to, $email_subject, $email_body, $headers)) {
   header('Location: thank-you.html');
-else
+
+}
+else {
   header('Location: failed-email.html');
+}
 
 // Function to validate against any email injection attempts
 function IsInjected($str)
