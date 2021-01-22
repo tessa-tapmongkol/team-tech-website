@@ -18,8 +18,8 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$to = "psomiset@calpoly.edu";//<== update the email address
-$email_subject = "New Inquary submission";
+$to = "cpteamtech@gmail.com";//<== update the email address
+$email_subject = "Email from ".$first_name." Team Tech Website";
 $email_body = "You have received a new message from ".$first_name." ".$last_name. ".\r\n 
 Here is the user email: ".$visitor_email. "\r\nHere is the message:\r\n".$message. "\r\n";
 
